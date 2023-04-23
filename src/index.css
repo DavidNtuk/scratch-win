@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #fff;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.back-flow{
+  background: radial-gradient(70.01% 70.01% at 50% 50%, #FFCC00 51%, #FFAA00 89%);
+}
+
+.card-flow{
+  background: #f8d664;
+  border-radius: 40px;
+}
+
+.text-style{
+  font-family: 'Tangerine';
+}
