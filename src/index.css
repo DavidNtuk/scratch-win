@@ -19,3 +19,16 @@ body{
 .text-style{
   font-family: 'Tangerine';
 }
+
+.footer-right{
+  transform: rotate(-15deg);
+}
+
+.footer-left{
+  transform: rotate(15deg);
+}
+
+.footer-radius{
+  border-radius: 20px;
+  background-color: #FFC001;
+}
