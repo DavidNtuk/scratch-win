@@ -49,7 +49,7 @@ const PlaySection = () => {
 
 
         <div className='md:ml-[10%] mt-32 flex lg:flex-row flex-col justify-center items-center'>
-            <img src={card} alt='rectangle-background' className='w-[366px] h-[515px] object-cover' />
+            <img src={card} alt='rectangle-background' className='w-[366px] h-[515px]' />
             <div className=''>
                 <div className='lg:mt-0 mt-10 items-start md:text-left md:flex-col lg:text-left flex text-left flex-col md:items-start lg:items-start md:ml-[10%] '>
                     <h1 className='lg:text-[36px] text-[24px] font-bold leading-12 tracking-wide'>How To Play?</h1>
