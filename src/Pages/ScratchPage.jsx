@@ -1,7 +1,10 @@
 import React from 'react';
 import rect3 from '../images/Rectangle 8.png';
 import Card from '../images/card.png';
+import Card9 from '../images/image 9.png'
 import Card12 from '../images/Card12.png'
+
+import Card8 from '../images/image 8.png'
 
 const ScratchPage = () => {
   return (
@@ -17,12 +20,12 @@ const ScratchPage = () => {
                         <div className='lg:mt-10 mt-[42rem] md:mt-[45rem]'>
                             <p className='text-[24px] text-black max-w-[80%] md:max-w-[100%] lg:max-w-[100%] mt-10 text-style mb-2 text-end lg:text-start  md:text-center leading-9 tracking-wide'>No of cards</p>
                             <div className='flex'>
-                                <img src={Card12} alt='rectangle-background' className='w-[58px] h-[82px] rect-img rounded-lg' />
-                                <img src={Card12} alt='rectangle-background' className='w-[58px] h-[82px] rect-img ml-2 rounded-lg' />
-                                <img src={Card12} alt='rectangle-background' className='w-[58px] h-[82px] rect-img ml-2 rounded-lg' />
+                                <img src={Card8} alt='rectangle-background' className='w-full h-full rect-img mr-2' />
+                                <img src={Card9} alt='rectangle-background' className='w-full h-full rect-img' />
+                                <img src={Card9} alt='rectangle-background' className='w-full h-full rect-img ' />
                             </div>
-                            <div className='w-[190px] h-[5px] bg-gray-200 rounded-md my-5 hover:cursor-pointer'>
-                                <div className='w-[57px] h-[5px] footer-radius mx-[35%] '></div>
+                            <div className='w-full h-[5px] bg-gray-200 rounded-md hover:cursor-pointer'>
+                                <div className='w-[80px] h-[5px] footer-radius mx-[37%] '></div>
                             </div>
                         </div>
                         <div className='absolute right-[0px] lg:top-[-150px] lg:right-[-100px] md:right-[20%] top-[200px]'>
