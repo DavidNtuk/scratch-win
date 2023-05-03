@@ -4,6 +4,7 @@ import {Routes,Route
 import Navbar from "./Component/Navbar";
 import LandingPage from "./Pages/LandingPage";
 import Footer from "./Component/Footer";
+import ScratchPage from "./Pages/ScratchPage";
 
 
 
@@ -13,7 +14,8 @@ function App() {
     <>
       <Navbar />
         <Routes>
-            <Route path='/' element={<LandingPage />} />
+          <Route path='/' element={<LandingPage />} />
+          <Route path='/scratcch&win' element={<ScratchPage />} />
         </Routes>
       <Footer />
     </>
