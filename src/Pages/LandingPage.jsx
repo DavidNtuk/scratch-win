@@ -20,7 +20,7 @@ const LandingPage = () => {
     <div className='mt-[200px] mb-[150px]'>
       <RulesSection />
     </div>
-    <div className='mt-[200px] mb-[200px]'>
+    <div className='mt-[200px]'>
       <FAQSection />
     </div>
     

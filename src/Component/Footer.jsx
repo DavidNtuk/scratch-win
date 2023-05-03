@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <>
     <div className='h-full w-full relative'>
-        <div className='w-[80%] h-[328px] lg:h-[328px] md:h-[250px] absolute top-[-100px] md:top-[50px] left-[10%] z-10
+        <div className='w-[80%] h-[328px] lg:h-[328px] md:h-[250px] absolute top-[5rem] md:top-[15rem] left-[10%] z-10
         footer-radius' >
            <img src={mask} alt='rectangle-background' className='w-full h-full  object-cover' />
         </div>
